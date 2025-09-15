@@ -120,13 +120,13 @@ bash scripts/lora_generation_bpo_mix_v4.20.sh
 
 We use the bias evaluation benchmark from [Finetuning Text-to-Image Diffusion Models for Fairness](https://github.com/sail-sg/finetune-fair-diffusion) for measuring demographic bias in generated images.
 
-To locating bias in generated images:
+For detailed bias metrics and evaluation protocols, please refer to the [finetune-fair-diffusion](https://github.com/sail-sg/finetune-fair-diffusion) repository.
+
+To locating bias in the model:
 
 ```bash
 python locating_bias/detect_gender.py --model_path /path/to/model
 ```
-
-For detailed bias metrics and evaluation protocols, please refer to the [finetune-fair-diffusion](https://github.com/sail-sg/finetune-fair-diffusion) repository.
 
 ## Datasets
 
