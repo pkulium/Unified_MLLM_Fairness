@@ -1,4 +1,4 @@
-# On Fairness of Unified Multimodal Large Language Model for Image Generation
+# [NeurIPS 2025] On Fairness of Unified Multimodal Large Language Model for Image Generation
 
 [![Paper](https://img.shields.io/badge/arXiv-2502.03429-b31b1b.svg)](https://arxiv.org/abs/2502.03429)
 
